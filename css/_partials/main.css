@@ -6,7 +6,7 @@ body{
 /* Header */
 header{
     background-color: var(--mc-bg-nav);
-    height: 70px;
+    height: var(--mc-nav-height);
 }
 header .row{
     background-color: var(--mc-bg-nav-row);
@@ -30,7 +30,26 @@ header img.mc-logo-large{
 main{
     background-color: aqua;
 }
-
+main .mc-slide-bar{
+    background-image: url('../../img/sidebar-bg.png');
+    background-color: var(--mc-bg-slide-bar);
+    height: calc(100vh - var(--mc-nav-height));
+    width: 68px;
+    text-align: center;
+}
+@media (min-width: 992px){
+    main .mc-slide-bar{
+        width: 150px;
+        text-align: left;
+    }
+}
+main .mc-slide-bar a:hover > div{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+main .mc-section{
+    background-color: blanchedalmond;
+    width: 100%;
+}
 
 /*
 .row,
