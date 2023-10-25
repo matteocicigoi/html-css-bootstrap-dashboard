@@ -1,9 +1,13 @@
 :root{
+    /* header */
     --mc-bg-search: #E5E5E5;
     --mc-bg-nav-row: #F8F9FA;
     --mc-bg-nav: white;
     --mc-nav-height: 70px;
-
+    /*main */
+    /* main - slide bar */
     --mc-bg-slide-bar: #051E34;
     --mc-slide-bar-widht: 68px;
+    /* main -  */
+    --mc-top-main: #1B72E8;
 }
