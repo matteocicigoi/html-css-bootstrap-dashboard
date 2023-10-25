@@ -1,3 +1,39 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: red;
+    font-weight: 500;
 }
+/* Header */
+header{
+    background-color: var(--mc-bg-nav);
+    height: 70px;
+}
+header .row{
+    background-color: var(--mc-bg-nav-row);
+    height: 100%;
+}
+header .mc-search span,
+header .mc-search input{
+    background-color: var(--mc-bg-search);
+}
+header .mc-search input::placeholder{
+    color: #777777;
+}
+header img{
+    height: 46px;
+    width: auto;
+}
+header img.mc-logo-large{
+    height: 28px;
+}
+/* Main */
+main{
+    background-color: aqua;
+}
+
+
+/*
+.row,
+.row > div{
+    border: 1px solid orange;
+}*/
