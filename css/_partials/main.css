@@ -34,7 +34,7 @@ main .mc-slide-bar{
     background-image: url('../../img/sidebar-bg.png');
     background-color: var(--mc-bg-slide-bar);
     height: calc(100vh - var(--mc-nav-height));
-    width: 68px;
+    width: var(--mc-slide-bar-widht);
     text-align: center;
 }
 @media (min-width: 992px){
@@ -48,7 +48,7 @@ main .mc-slide-bar a:hover > div{
 }
 main .mc-section{
     background-color: blanchedalmond;
-    width: 100%;
+    width: calc();
 }
 
 /*
