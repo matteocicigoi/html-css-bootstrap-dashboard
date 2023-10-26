@@ -42,11 +42,18 @@ main .mc-slide-bar a:hover > div{
 main .mc-section{
     background-color: blanchedalmond;
     width: calc(100vw - var(--mc-slide-bar-widht));
+    height: calc(100vh - var(--mc-nav-height));
     font-weight: 400;
 }
-
 main .mc-section .mc-top{
     background-color: var(--mc-top-main);
+}
+main .mc-section .mc-bottom{
+    background-color: aqua;
+}
+main .mc-section .mc-bottom img.mc-avatar{
+    width: 30px;
+    height: auto;
 }
 @media (min-width: 992px){
     :root{
